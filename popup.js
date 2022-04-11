@@ -1,7 +1,3 @@
-
-
-
-
 let copy1A = document.querySelector('#copy1A');
 copy1A.addEventListener("click", async () => {
     let [tab] = await chrome.tabs.query({active: true, currentWindow:true});
@@ -143,39 +139,22 @@ copy1A.addEventListener("click", async () => {
 		   let ty = idom.evaluate('//*[@id="btnAddForms"]', document, null, 
 						XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 		   ty.click();
- 
-		   //idom.querySelector('#txtAmtOfAdj14').dispatchEvent(new Event('change', {'bubbles': true}));
-		 //*const iframe2 = document.querySelector("#iFrameFormsList"); //document.querySelector('#PopUpModalDialogiFrame');
-		 //*const idom2 = iframe2.contentWindow.document;
-		 
-		 /*
-		 idom2.querySelector("#lnkf8949st").dispatchEvent(new Event('click', {'bubbles': true})); 
-		 idom2.querySelector("#AddMoreFormBodyYes").dispatchEvent(new Event('click', {'bubbles': true})); */
-		  /*document.evaluate('//*[@id="AddMoreFormBodyYes"]', document, null, 
-						XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click(); */
-
-							
-		 					         
-										setTimeout(() => {
-
-									    const mt = document.querySelector('#PopUpModalDialogiFrame');
-										const nt = mt.contentWindow.document;
-										nt.querySelector("#lnkf8949st").click();
+		   
+		   setTimeout(() => {
+				 const mt = document.querySelector('#PopUpModalDialogiFrame');
+				 const nt = mt.contentWindow.document;
+  				 nt.querySelector("#lnkf8949st").click();
 										},
 
-											5000);
-										setTimeout(() => {
-											const mt = document.querySelector('#PopUpModalDialogiFrame');
-											const nt = mt.contentWindow.document;
-											nt.querySelector("#AddMoreFormBodyYes").click();
-										},
-										7000);
-											   
-											
-											
-								
-								//idom2.querySelector("#lnkf8949st").dispatchEvent(new Event('click', {'bubbles': true})); 
-
+				5000);
+		    setTimeout(() => {
+				 const mt = document.querySelector('#PopUpModalDialogiFrame');
+				 const nt = mt.contentWindow.document;
+				 nt.querySelector("#AddMoreFormBodyYes").click();
+						},
+					7000);					
+									   
+		 					         									
        }
     })
 });
@@ -5180,18 +5159,3 @@ copy3B.addEventListener("click", async () => {
        }
     })
 });
-
-
-
-
-
-
-
-
-
-/*
-const iframe = document.querySelector('#iFrameFilingForm');
-const idom = iframe.contentWindow.document;
-idom.querySelector('#txtDescrip1').setAttribute('value', 'Some Text');
-*/
-
