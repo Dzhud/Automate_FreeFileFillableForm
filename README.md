@@ -11,3 +11,6 @@ Chrome browser extension that auto populates IRS form 8949 (Short and Long term 
 7) Click the appropriate button to autocomplete fields and the cycle continues.
 
 If for some reason (internet lag or browser's) the page is static, click the appropriate button again.
+
+
+![image](https://user-images.githubusercontent.com/17687761/162730728-ca21ce42-c3c2-4086-a383-b99606c4cedf.png)
