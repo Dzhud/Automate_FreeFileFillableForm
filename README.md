@@ -1,5 +1,5 @@
 # Automate_FreeFileFillableForm
-Chrome browser extension that auto populates IRS form 8949 (Short and Long term forms) fields. Another level of automation is form selection. After the completion of a particular form, the next one is automatically loaded and filled.
+Chrome browser extension that auto populates IRS form 8949 (Short and Long term transaction forms) fields. Another level of automation is form selection. After the completion of a particular form, the next one is automatically loaded and filled.
 
 # The Process
 1) You pick an initial Form 8949 Page 1 (or 2) manually (for the first time)
