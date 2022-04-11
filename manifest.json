@@ -1,0 +1,29 @@
+{
+  "name": "Automate IRS Form",
+  "description": "AutoComplete Your IRS Form!",
+  "version": "1.1",
+   "author": "Adeleke Omotayo Jude",
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Automate IRS Form"
+
+  },
+  "content_scripts": [{
+  "css": ["button.css"],
+  "js": ["popup.js"],
+  "matches": ["https://freefilefillableforms/*"],
+   "run_at": "document_end"
+  }],
+  "manifest_version": 3,
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": [
+  "https://www.freefilefillableforms.com/"
+
+]
+
+}
+
+
+
+        

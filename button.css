@@ -1,0 +1,36 @@
+
+body {
+
+	height: 150px;
+	background-color: beige;
+	width: 350px;
+
+}
+
+button {
+
+	color: black;
+	font-weight: 300;
+	width: 100px;
+	border: 1px solid;
+ 	padding: 10px;
+    border-radius: 10px;
+
+}
+button:hover {
+
+	 box-shadow: 5px 10px #888888;
+	 border-right: 30px;
+}
+
+center {
+
+	display: grid;
+  	grid-column-gap: 300px;
+  	grid-row-gap: 15px;
+	
+}
+
+#copy1B, #copy2B, #copy3B {
+	color: blueviolet;
+}
